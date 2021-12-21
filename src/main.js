@@ -6,6 +6,7 @@ import {routes} from './routes';
 //disponibiliza artefatos especializados na realização 
 //de requisições assíncronas 
 //ao mesmo tempo em que se integra com o ecossistema do Vue.
+//importa modulo para consumir API rest
 Vue.use(VueResource);
 Vue.use(VueRouter);
 //criar router para que VueRouter 
